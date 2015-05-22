@@ -28,7 +28,9 @@
     // http://www.idangero.us/swiper/api
     propTypes: {
       simulateTouch: React.PropTypes.bool,
-      initialSlide: React.PropTypes.number
+      initialSlide: React.PropTypes.number,
+      preloadImages: React.PropTypes.bool,
+      lazyLoading: React.PropTypes.bool
     },
 
     componentDidMount: function () {
