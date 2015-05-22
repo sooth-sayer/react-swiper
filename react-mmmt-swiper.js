@@ -31,12 +31,22 @@
       simulateTouch: React.PropTypes.bool,
       initialSlide: React.PropTypes.number,
       preloadImages: React.PropTypes.bool,
-      lazyLoading: React.PropTypes.bool
+      lazyLoading: React.PropTypes.bool,
+      lazyLoadingInPrevNext: React.PropTypes.bool,
+      lazyLoadingOnTransitionStart: React.PropTypes.bool
     },
 
     componentDidMount: function () {
       if (this.isMounted()) {
         this.swiper = Swiper(this.getDOMNode(), this.props);
+        // NOTE: Does not seem that initialSlide works with images
+        // NOTE: Lazy loading is also not helped
+        var initialSlide = this.props.initialSlide;
+        if (initialSlide) {
+          this.swiper.on("imagesReady", function() {
+            this.swiper.slideTo(initialSlide);
+          }.bind(this));
+        }
       }
     },
 
