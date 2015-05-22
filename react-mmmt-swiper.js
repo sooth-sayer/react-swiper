@@ -18,6 +18,7 @@
     },
 
     wrapper: {
+      alignItems: "center"
     },
 
     child: {
