@@ -27,7 +27,8 @@
   var ReactSwiper = React.createClass({
     // http://www.idangero.us/swiper/api
     propTypes: {
-      simulateTouch: React.PropTypes.bool
+      simulateTouch: React.PropTypes.bool,
+      initialSlide: React.PropTypes.number
     },
 
     componentDidMount: function () {
