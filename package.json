@@ -1,5 +1,5 @@
 {
-  "name": "react-swiper",
+  "name": "react-mmmt-swiper",
   "version": "0.0.1",
   "description": "Swiper, as a React component",
   "homepage": "https://github.com/sooth-sayer/react-swiper",
@@ -18,14 +18,14 @@
     "type": "git",
     "url": "git://github.com/sooth-sayer/react-swiper.git"
   },
-  "main": "dist/react-swiper.js",
+  "main": "react-mmmt-swiper.js",
   "license": "MIT",
   "devDependencies": {
     "browserify": "^5.9.1",
     "uglify-js": "^2.4.19"
   },
   "scripts": {
-    "build": "uglifyjs react-swiper.js -cm -o react-swiper.min.js",
+    "build": "uglifyjs react-mmmt-swiper.js -cm -o react-mmmt-swiper.min.js",
     "prepublish": "npm run build"
   },
   "dependencies": {
@@ -37,22 +37,17 @@
   "bugs": {
     "url": "https://github.com/sooth-sayer/react-swiper/issues"
   },
-  "_id": "react-swiper@0.0.1",
-  "_from": "react-swiper@0.0.1",
+  "_id": "react-mmmt-swiper@0.0.1",
+  "_from": "react-mmmt-swiper@0.0.1",
   "_npmVersion": "1.4.28",
   "_npmUser": {
-    "name": "dmitri",
-    "email": "dmitri.voronianski@gmail.com"
+    "name": "Dm. Che",
+    "email": "d.chernyatiev@gmail.com"
   },
   "maintainers": [
     {
-      "name": "sooth-sayer",
+      "name": "Dm. Che",
       "email": "d.chernyatiev@gmail.com"
     }
-  ],
-  "dist": {
-    "tarball": "http://registry.npmjs.org/react-swiper/-/react-swiper-0.0.1.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/react-swiper/-/react-swiper-0.0.1.tgz"
+  ]
 }
