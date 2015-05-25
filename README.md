@@ -3,14 +3,14 @@
 ## Installation
 
 ```bash
-npm install react-swiper
+npm install react-mmmt-swiper
 ```
 
 ## Usage
 
 ```javascript
 var React = require('react')
-var ReactSwiper = require('react-swiper')
+var ReactSwiper = require('react-mmmt-swiper')
 
 var Carousel = React.createClass({
     render: function () {
