@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "Swiper, as a React component",
   "homepage": "https://github.com/sooth-sayer/react-swiper",
+  "style": "react-mmmt-swiper.css",
   "keywords": [
     "react",
     "component",
@@ -22,10 +23,11 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^5.9.1",
-    "uglify-js": "^2.4.19"
+    "uglify-js": "^2.4.19",
+    "rework-npm-cli": "*"
   },
   "scripts": {
-    "build": "uglifyjs react-mmmt-swiper.js -cm -o react-mmmt-swiper.min.js",
+    "build": "uglifyjs react-mmmt-swiper.js -cm -o react-mmmt-swiper.min.js && rework-npm swiper.css -o react-mmmt-swiper.css",
     "prepublish": "npm run build"
   },
   "dependencies": {
@@ -37,8 +39,6 @@
   "bugs": {
     "url": "https://github.com/sooth-sayer/react-swiper/issues"
   },
-  "_id": "react-mmmt-swiper@0.0.1",
-  "_from": "react-mmmt-swiper@0.0.1",
   "_npmVersion": "1.4.28",
   "_npmUser": {
     "name": "Dm. Che",
