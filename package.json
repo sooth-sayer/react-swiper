@@ -27,7 +27,8 @@
     "rework-npm-cli": "*"
   },
   "scripts": {
-    "build": "uglifyjs react-mmmt-swiper.js -cm -o react-mmmt-swiper.min.js && rework-npm swiper.css -o react-mmmt-swiper.css",
+    "build": "uglifyjs react-mmmt-swiper.js -cm -o react-mmmt-swiper.min.js",
+    "postinstall": "rework-npm swiper.css -o react-mmmt-swiper.css",
     "prepublish": "npm run build"
   },
   "dependencies": {
