@@ -23,8 +23,7 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^5.9.1",
-    "uglify-js": "^2.4.19",
-    "rework-npm-cli": "*"
+    "uglify-js": "^2.4.19"
   },
   "scripts": {
     "build": "uglifyjs react-mmmt-swiper.js -cm -o react-mmmt-swiper.min.js",
@@ -32,7 +31,8 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "swiper": "3.0.x"
+    "swiper": "3.0.x",
+    "rework-npm-cli": "*"
   },
   "peerDependencies": {
     "react": "0.12.x"
