@@ -22,7 +22,7 @@
   "main": "react-mmmt-swiper.js",
   "license": "MIT",
   "devDependencies": {
-    "browserify": "^5.9.1",
+    "browserify": "^10.2.3",
     "uglify-js": "^2.4.19"
   },
   "scripts": {
@@ -35,7 +35,7 @@
     "rework-npm-cli": "*"
   },
   "peerDependencies": {
-    "react": "0.12.x"
+    "react": "0.13.x"
   },
   "bugs": {
     "url": "https://github.com/sooth-sayer/react-swiper/issues"
